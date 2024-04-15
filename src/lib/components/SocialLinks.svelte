@@ -1,5 +1,5 @@
 <script>
-  import { linkedin, instagram, twitter, github } from '$lib/info'
+  import { linkedin, instagram, twitter, github, stackoverflow } from '$lib/info'
 </script>
 
 {#if twitter}
@@ -58,6 +58,15 @@
       <path
         d="M18.335 18.339H15.67v-4.177c0-.996-.02-2.278-1.39-2.278-1.389 0-1.601 1.084-1.601 2.205v4.25h-2.666V9.75h2.56v1.17h.035c.358-.674 1.228-1.387 2.528-1.387 2.7 0 3.2 1.778 3.2 4.091v4.715zM7.003 8.575a1.546 1.546 0 01-1.548-1.549 1.548 1.548 0 111.547 1.549zm1.336 9.764H5.666V9.75H8.34v8.589zM19.67 3H4.329C3.593 3 3 3.58 3 4.297v15.406C3 20.42 3.594 21 4.328 21h15.338C20.4 21 21 20.42 21 19.703V4.297C21 3.58 20.4 3 19.666 3h.003z"
       />
+    </svg>
+  </a>
+{/if}
+
+{#if stackoverflow}
+  <a href={`https://stackoverflow.com/${stackoverflow}`} class="group" aria-label="Stackoverflow">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" width="24" height="24" class="w-6 h-6 transition fill-zinc-500 group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300">
+      <path d="M28.16 32H2.475V20.58H5.32v8.575h19.956V20.58h2.884z" />
+      <path d="M8.477 19.8l13.993 2.923.585-2.806-13.993-2.923zm1.832-6.704l12.94 6.04 1.208-2.572-12.94-6.08zm3.586-6.353l10.99 9.12 1.832-2.183-10.99-9.12zM20.99 0l-2.3 1.715 8.536 11.46 2.3-1.715zM8.166 26.27H22.43v-2.845H8.166v2.845z"/>
     </svg>
   </a>
 {/if}

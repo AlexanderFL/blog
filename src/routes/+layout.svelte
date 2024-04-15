@@ -20,7 +20,7 @@
   <div class="flex flex-col flex-grow w-full px-4 py-2">
     <header class="flex items-center justify-between w-full max-w-2xl py-4 mx-auto lg:pb-8">
       <a
-        class="text-lg font-bold sm:text-2xl !text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-teal-600 dark:to-teal-400"
+        class="text-lg font-bold sm:text-2xl !text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-cyan-600 dark:to-cyan-400"
         href="/"
       >
         {name}

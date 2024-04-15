@@ -1,5 +1,5 @@
 <script>
-  import { website, name, bio, avatar } from '$lib/info.js'
+  import { website, name, bio } from '$lib/info.js'
   import ToC from '$lib/components/ToC.svelte'
   import ArrowLeftIcon from '$lib/components/ArrowLeftIcon.svelte'
   import SocialLinks from '$lib/components/SocialLinks.svelte'
@@ -99,6 +99,7 @@
           <SocialLinks />
         </div>
         <div class="flex justify-center order-2 md:order-1 md:col-span-2">
+          <!--
           <a href="/" class="inline-block rounded-full">
             <img
               src={avatar}
@@ -106,6 +107,7 @@
               class="w-24 h-24 mx-auto rounded-full md:w-28 md:h-28 ring-2 ring-zinc-200 dark:ring-zinc-700"
             />
           </a>
+          -->
         </div>
         <p class="order-3 text-base text-zinc-600 dark:text-zinc-400">
           {bio}

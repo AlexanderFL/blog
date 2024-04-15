@@ -13,7 +13,7 @@
     {@html post.preview.html}
   </div>
   <div slot="actions">
-    <div class="flex items-center text-teal-500">
+    <div class="flex items-center text-cyan-700 dark:text-cyan-500">
       <span class="text-sm font-medium">Read</span>
       <ArrowRightIcon class="w-4 h-4 ml-1" />
     </div>
